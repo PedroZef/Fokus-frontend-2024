@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Unbounded', cursive;
 }
 
-.app__logo-figure {
+.app__logo-figure  {
     display: flex;
     justify-content: center;
     padding: 4rem 0;
@@ -238,13 +238,12 @@ h1, h2, h3, h4, h5, h6 {
     .app__section-banner-container {
         width: 48rem;
         flex-direction: column-reverse;
-
+      
     }
 
     .app__title,  .app__title-strong {   
         font-size: 2.4rem;
         text-align: center;
-        justify-content: space-between;
     }
 
 }
@@ -257,8 +256,9 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .app__title {
-        font-size: 2.4rem;
+        font-size: 2.6rem;
     }
+    
 
     .app__card-timer {
         font-size: 6rem;

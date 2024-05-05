@@ -20,7 +20,10 @@
 }
 
 * {
+
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
     max-width: 100%;
 }
 
@@ -32,7 +35,7 @@ html {
 
 body {
     min-height: 100vh;
-    background: url("/imagens/pattern.png");
+    background: url("imagens/pattern.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -63,6 +66,7 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
     color: var(--color-secondary);
     font-weight: 200;
+    text-align: center;
     max-width: 46rem;
 }
 
@@ -233,17 +237,27 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 1024px) and (min-width: 768px) {
     .app__section-banner-container {
         width: 48rem;
+        flex-direction: column-reverse;
+
     }
+
+    .app__title,  .app__title-strong {   
+        font-size: 2.4rem;
+        text-align: center;
+        justify-content: space-between;
+    }
+
 }
 
 /* Para Celulares */
 @media (max-width: 767px) {
     .app__section-banner-container {
         width: 32rem;
+        flex-direction: column-reverse;
     }
 
     .app__title {
-        font-size: 2.6rem;
+        font-size: 2.4rem;
     }
 
     .app__card-timer {

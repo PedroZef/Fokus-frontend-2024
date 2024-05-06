@@ -8,7 +8,7 @@
 
 <div align="center">
 <br></br>
-    <img src="./imagens/Modo-foco.png" width="200" height="100" hspace="25">
+    <img src="./imagens/Modo-foco .png" width="200" height="100" hspace="25">
 <br></br>
     <img src="./imagens/Modo-curto.png" width="200" height="100" hspace="25">
 <br></br>
